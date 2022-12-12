@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FEF2C19B908E8BCF4125775 /* Pods_ChaturangaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0DFE6FE571EA6F7A297BC1 /* Pods_ChaturangaApp.framework */; };
+		D012CD1E294560F90042D86A /* VideosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012CD1D294560F90042D86A /* VideosCollectionViewCell.swift */; };
+		D038C880292C4B3C00F31979 /* AllAsanasPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038C87F292C4B3C00F31979 /* AllAsanasPickerViewController.swift */; };
+		D0674B982925635A00FE2838 /* TwistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0674B972925635A00FE2838 /* TwistViewController.swift */; };
+		D0674B9A292568CB00FE2838 /* LateralSlopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0674B99292568CB00FE2838 /* LateralSlopeViewController.swift */; };
+		D070E8FB293F929D00F25831 /* StandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070E8FA293F929D00F25831 /* StandingViewController.swift */; };
+		D070E8FD293F947C00F25831 /* HandStandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070E8FC293F947C00F25831 /* HandStandsViewController.swift */; };
+		D070E8FF293FB97D00F25831 /* ProneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070E8FE293FB97D00F25831 /* ProneViewController.swift */; };
+		D070E901293FBBF000F25831 /* SittingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070E900293FBBF000F25831 /* SittingViewController.swift */; };
+		D0A7108C29311A960086F3F7 /* Asanas+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7108A29311A960086F3F7 /* Asanas+CoreDataClass.swift */; };
+		D0A7108D29311A960086F3F7 /* Asanas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7108B29311A960086F3F7 /* Asanas+CoreDataProperties.swift */; };
+		D0B4D6DD291EDC6D00F1F295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D6DC291EDC6D00F1F295 /* AppDelegate.swift */; };
+		D0B4D6DF291EDC6D00F1F295 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D6DE291EDC6D00F1F295 /* SceneDelegate.swift */; };
+		D0B4D6E7291EDC6D00F1F295 /* ChaturangaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D6E5291EDC6D00F1F295 /* ChaturangaApp.xcdatamodeld */; };
+		D0B4D6E9291EDC6E00F1F295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B4D6E8291EDC6E00F1F295 /* Assets.xcassets */; };
+		D0B4D6EC291EDC6E00F1F295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B4D6EA291EDC6E00F1F295 /* LaunchScreen.storyboard */; };
+		D0B4D6F7291EDD1300F1F295 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D6F6291EDD1300F1F295 /* DataSource.swift */; };
+		D0B4D6F9291EDD2000F1F295 /* AllAsanasPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D6F8291EDD2000F1F295 /* AllAsanasPhoto.swift */; };
+		D0B4D6FB291EDD2900F1F295 /* SpineCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D6FA291EDD2900F1F295 /* SpineCategories.swift */; };
+		D0B4D6FD291EDD3600F1F295 /* SpaceCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D6FC291EDD3600F1F295 /* SpaceCategories.swift */; };
+		D0B4D6FF291EDD3C00F1F295 /* StressFocusCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D6FE291EDD3C00F1F295 /* StressFocusCategories.swift */; };
+		D0B4D701291EDD4400F1F295 /* PeripheryCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D700291EDD4400F1F295 /* PeripheryCategories.swift */; };
+		D0B4D703291EDD4A00F1F295 /* AdditionalCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D702291EDD4A00F1F295 /* AdditionalCategories.swift */; };
+		D0B4D706291EDD5E00F1F295 /* CustomCellForAsanasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D705291EDD5E00F1F295 /* CustomCellForAsanasCollectionViewCell.swift */; };
+		D0B4D708291EDD6500F1F295 /* AllAsanasCustomCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D707291EDD6500F1F295 /* AllAsanasCustomCellCollectionViewCell.swift */; };
+		D0B4D70B291EDD7C00F1F295 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D70A291EDD7C00F1F295 /* MainViewController.swift */; };
+		D0B4D70D291EDD8200F1F295 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D70C291EDD8200F1F295 /* CategoryViewController.swift */; };
+		D0B4D70F291EDD8C00F1F295 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D70E291EDD8C00F1F295 /* TabBarViewController.swift */; };
+		D0B4D711291EDD9100F1F295 /* MyAsanasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D710291EDD9100F1F295 /* MyAsanasViewController.swift */; };
+		D0B4D713291EDD9600F1F295 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D712291EDD9600F1F295 /* QuotesViewController.swift */; };
+		D0B4D715291EDD9F00F1F295 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D714291EDD9F00F1F295 /* VideoViewController.swift */; };
+		D0B4D717291EDDA500F1F295 /* SpaceCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D716291EDDA500F1F295 /* SpaceCategoriesViewController.swift */; };
+		D0B4D719291EDDB300F1F295 /* StressFocusCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D718291EDDB300F1F295 /* StressFocusCategoriesViewController.swift */; };
+		D0B4D71B291EDDBB00F1F295 /* AdditionalCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D71A291EDDBB00F1F295 /* AdditionalCategoriesViewController.swift */; };
+		D0B4D71D291EDDC000F1F295 /* PeripheryCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D71C291EDDC000F1F295 /* PeripheryCategoriesViewController.swift */; };
+		D0B4D71F291EDDC700F1F295 /* AllAsanasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4D71E291EDDC700F1F295 /* AllAsanasViewController.swift */; };
+		D0DC4E9C292153EA00F59075 /* AsanaDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC4E9B292153EA00F59075 /* AsanaDescriptionViewController.swift */; };
+		D0DC4E9E2922A67500F59075 /* BackBendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC4E9D2922A67500F59075 /* BackBendViewController.swift */; };
+		D0DC4EA22922A9B000F59075 /* TransitionPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC4EA12922A9B000F59075 /* TransitionPhoto.swift */; };
+		D0DC4EA42924640C00F59075 /* ForwardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC4EA32924640C00F59075 /* ForwardViewController.swift */; };
+		D0EFEEEB294102AB00087FF6 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFEEEA294102AB00087FF6 /* NetworkLayer.swift */; };
+		D0EFEEEE2941031300087FF6 /* NetworkTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFEEED2941031300087FF6 /* NetworkTypes.swift */; };
+		D0EFEEF22941041A00087FF6 /* QuotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFEEF12941041A00087FF6 /* QuotesModel.swift */; };
+		D0EFEEF42941046B00087FF6 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFEEF32941046B00087FF6 /* Errors.swift */; };
+		D0EFEEF62941047E00087FF6 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFEEF52941047E00087FF6 /* URLSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F16241B0410517C69F1914A /* Pods-ChaturangaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaturangaApp.debug.xcconfig"; path = "Target Support Files/Pods-ChaturangaApp/Pods-ChaturangaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A65BDDB235AEBEA8BF761390 /* Pods-ChaturangaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaturangaApp.release.xcconfig"; path = "Target Support Files/Pods-ChaturangaApp/Pods-ChaturangaApp.release.xcconfig"; sourceTree = "<group>"; };
+		AA0DFE6FE571EA6F7A297BC1 /* Pods_ChaturangaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaturangaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D012CD1D294560F90042D86A /* VideosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosCollectionViewCell.swift; sourceTree = "<group>"; };
+		D038C87F292C4B3C00F31979 /* AllAsanasPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAsanasPickerViewController.swift; sourceTree = "<group>"; };
+		D0674B972925635A00FE2838 /* TwistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwistViewController.swift; sourceTree = "<group>"; };
+		D0674B99292568CB00FE2838 /* LateralSlopeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LateralSlopeViewController.swift; sourceTree = "<group>"; };
+		D070E8FA293F929D00F25831 /* StandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingViewController.swift; sourceTree = "<group>"; };
+		D070E8FC293F947C00F25831 /* HandStandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandStandsViewController.swift; sourceTree = "<group>"; };
+		D070E8FE293FB97D00F25831 /* ProneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProneViewController.swift; sourceTree = "<group>"; };
+		D070E900293FBBF000F25831 /* SittingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SittingViewController.swift; sourceTree = "<group>"; };
+		D0A7108A29311A960086F3F7 /* Asanas+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asanas+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D0A7108B29311A960086F3F7 /* Asanas+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asanas+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0B4D6D9291EDC6D00F1F295 /* ChaturangaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaturangaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B4D6DC291EDC6D00F1F295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0B4D6DE291EDC6D00F1F295 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0B4D6E6291EDC6D00F1F295 /* ChaturangaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChaturangaApp.xcdatamodel; sourceTree = "<group>"; };
+		D0B4D6E8291EDC6E00F1F295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B4D6EB291EDC6E00F1F295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B4D6ED291EDC6E00F1F295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B4D6F6291EDD1300F1F295 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		D0B4D6F8291EDD2000F1F295 /* AllAsanasPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllAsanasPhoto.swift; sourceTree = "<group>"; };
+		D0B4D6FA291EDD2900F1F295 /* SpineCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineCategories.swift; sourceTree = "<group>"; };
+		D0B4D6FC291EDD3600F1F295 /* SpaceCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceCategories.swift; sourceTree = "<group>"; };
+		D0B4D6FE291EDD3C00F1F295 /* StressFocusCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StressFocusCategories.swift; sourceTree = "<group>"; };
+		D0B4D700291EDD4400F1F295 /* PeripheryCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheryCategories.swift; sourceTree = "<group>"; };
+		D0B4D702291EDD4A00F1F295 /* AdditionalCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalCategories.swift; sourceTree = "<group>"; };
+		D0B4D705291EDD5E00F1F295 /* CustomCellForAsanasCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellForAsanasCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0B4D707291EDD6500F1F295 /* AllAsanasCustomCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllAsanasCustomCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0B4D70A291EDD7C00F1F295 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D0B4D70C291EDD8200F1F295 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		D0B4D70E291EDD8C00F1F295 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D0B4D710291EDD9100F1F295 /* MyAsanasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAsanasViewController.swift; sourceTree = "<group>"; };
+		D0B4D712291EDD9600F1F295 /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		D0B4D714291EDD9F00F1F295 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		D0B4D716291EDDA500F1F295 /* SpaceCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceCategoriesViewController.swift; sourceTree = "<group>"; };
+		D0B4D718291EDDB300F1F295 /* StressFocusCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StressFocusCategoriesViewController.swift; sourceTree = "<group>"; };
+		D0B4D71A291EDDBB00F1F295 /* AdditionalCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalCategoriesViewController.swift; sourceTree = "<group>"; };
+		D0B4D71C291EDDC000F1F295 /* PeripheryCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheryCategoriesViewController.swift; sourceTree = "<group>"; };
+		D0B4D71E291EDDC700F1F295 /* AllAsanasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllAsanasViewController.swift; sourceTree = "<group>"; };
+		D0DC4E9B292153EA00F59075 /* AsanaDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsanaDescriptionViewController.swift; sourceTree = "<group>"; };
+		D0DC4E9D2922A67500F59075 /* BackBendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBendViewController.swift; sourceTree = "<group>"; };
+		D0DC4EA12922A9B000F59075 /* TransitionPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionPhoto.swift; sourceTree = "<group>"; };
+		D0DC4EA32924640C00F59075 /* ForwardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardViewController.swift; sourceTree = "<group>"; };
+		D0EFEEEA294102AB00087FF6 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		D0EFEEED2941031300087FF6 /* NetworkTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTypes.swift; sourceTree = "<group>"; };
+		D0EFEEF12941041A00087FF6 /* QuotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModel.swift; sourceTree = "<group>"; };
+		D0EFEEF32941046B00087FF6 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		D0EFEEF52941047E00087FF6 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B4D6D6291EDC6D00F1F295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEF2C19B908E8BCF4125775 /* Pods_ChaturangaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CB7A71AB4157D849252B546 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA0DFE6FE571EA6F7A297BC1 /* Pods_ChaturangaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D070E8F9293F924400F25831 /* AsanasInCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC4EA32924640C00F59075 /* ForwardViewController.swift */,
+				D0674B99292568CB00FE2838 /* LateralSlopeViewController.swift */,
+				D0DC4E9D2922A67500F59075 /* BackBendViewController.swift */,
+				D0674B972925635A00FE2838 /* TwistViewController.swift */,
+				D070E8FA293F929D00F25831 /* StandingViewController.swift */,
+				D070E8FC293F947C00F25831 /* HandStandsViewController.swift */,
+				D070E8FE293FB97D00F25831 /* ProneViewController.swift */,
+				D070E900293FBBF000F25831 /* SittingViewController.swift */,
+			);
+			path = AsanasInCategories;
+			sourceTree = "<group>";
+		};
+		D0B4D6D0291EDC6D00F1F295 = {
+			isa = PBXGroup;
+			children = (
+				D0A7108A29311A960086F3F7 /* Asanas+CoreDataClass.swift */,
+				D0A7108B29311A960086F3F7 /* Asanas+CoreDataProperties.swift */,
+				D0B4D6DB291EDC6D00F1F295 /* ChaturangaApp */,
+				D0B4D6DA291EDC6D00F1F295 /* Products */,
+				DFEB5B4B71A90F2D968275C9 /* Pods */,
+				6CB7A71AB4157D849252B546 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B4D6DA291EDC6D00F1F295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B4D6D9291EDC6D00F1F295 /* ChaturangaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B4D6DB291EDC6D00F1F295 /* ChaturangaApp */ = {
+			isa = PBXGroup;
+			children = (
+				D0EFEEE92941028500087FF6 /* NetworkLayer */,
+				D070E8F9293F924400F25831 /* AsanasInCategories */,
+				D0B4D720291EDDDC00F1F295 /* App */,
+				D0B4D709291EDD6F00F1F295 /* Controllers */,
+				D0B4D704291EDD5400F1F295 /* View */,
+				D0B4D6F5291EDCFF00F1F295 /* Model */,
+				D0B4D6E8291EDC6E00F1F295 /* Assets.xcassets */,
+				D0B4D6EA291EDC6E00F1F295 /* LaunchScreen.storyboard */,
+				D0B4D6ED291EDC6E00F1F295 /* Info.plist */,
+				D0B4D6E5291EDC6D00F1F295 /* ChaturangaApp.xcdatamodeld */,
+			);
+			path = ChaturangaApp;
+			sourceTree = "<group>";
+		};
+		D0B4D6F5291EDCFF00F1F295 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0B4D6F6291EDD1300F1F295 /* DataSource.swift */,
+				D0B4D6F8291EDD2000F1F295 /* AllAsanasPhoto.swift */,
+				D0DC4EA12922A9B000F59075 /* TransitionPhoto.swift */,
+				D0B4D6FA291EDD2900F1F295 /* SpineCategories.swift */,
+				D0B4D6FC291EDD3600F1F295 /* SpaceCategories.swift */,
+				D0B4D6FE291EDD3C00F1F295 /* StressFocusCategories.swift */,
+				D0B4D700291EDD4400F1F295 /* PeripheryCategories.swift */,
+				D0B4D702291EDD4A00F1F295 /* AdditionalCategories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0B4D704291EDD5400F1F295 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0B4D705291EDD5E00F1F295 /* CustomCellForAsanasCollectionViewCell.swift */,
+				D0B4D707291EDD6500F1F295 /* AllAsanasCustomCellCollectionViewCell.swift */,
+				D012CD1D294560F90042D86A /* VideosCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0B4D709291EDD6F00F1F295 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0B4D70A291EDD7C00F1F295 /* MainViewController.swift */,
+				D0B4D70C291EDD8200F1F295 /* CategoryViewController.swift */,
+				D0B4D70E291EDD8C00F1F295 /* TabBarViewController.swift */,
+				D0B4D710291EDD9100F1F295 /* MyAsanasViewController.swift */,
+				D0B4D712291EDD9600F1F295 /* QuotesViewController.swift */,
+				D0B4D716291EDDA500F1F295 /* SpaceCategoriesViewController.swift */,
+				D0B4D718291EDDB300F1F295 /* StressFocusCategoriesViewController.swift */,
+				D0B4D71A291EDDBB00F1F295 /* AdditionalCategoriesViewController.swift */,
+				D0B4D71C291EDDC000F1F295 /* PeripheryCategoriesViewController.swift */,
+				D0B4D71E291EDDC700F1F295 /* AllAsanasViewController.swift */,
+				D0DC4E9B292153EA00F59075 /* AsanaDescriptionViewController.swift */,
+				D038C87F292C4B3C00F31979 /* AllAsanasPickerViewController.swift */,
+				D0B4D714291EDD9F00F1F295 /* VideoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D0B4D720291EDDDC00F1F295 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D0B4D6DC291EDC6D00F1F295 /* AppDelegate.swift */,
+				D0B4D6DE291EDC6D00F1F295 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D0EFEEE92941028500087FF6 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D0EFEEEC2941030500087FF6 /* NetworkModel */,
+				D0EFEEEA294102AB00087FF6 /* NetworkLayer.swift */,
+				D0EFEEF32941046B00087FF6 /* Errors.swift */,
+				D0EFEEF52941047E00087FF6 /* URLSession.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		D0EFEEEC2941030500087FF6 /* NetworkModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0EFEEED2941031300087FF6 /* NetworkTypes.swift */,
+				D0EFEEF12941041A00087FF6 /* QuotesModel.swift */,
+			);
+			path = NetworkModel;
+			sourceTree = "<group>";
+		};
+		DFEB5B4B71A90F2D968275C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F16241B0410517C69F1914A /* Pods-ChaturangaApp.debug.xcconfig */,
+				A65BDDB235AEBEA8BF761390 /* Pods-ChaturangaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B4D6D8291EDC6D00F1F295 /* ChaturangaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B4D6F0291EDC6E00F1F295 /* Build configuration list for PBXNativeTarget "ChaturangaApp" */;
+			buildPhases = (
+				EFD00257FEAC6E7C050C1500 /* [CP] Check Pods Manifest.lock */,
+				D0B4D6D5291EDC6D00F1F295 /* Sources */,
+				D0B4D6D6291EDC6D00F1F295 /* Frameworks */,
+				D0B4D6D7291EDC6D00F1F295 /* Resources */,
+				53603227B69F8DDD8F24526D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaturangaApp;
+			productName = ChaturangaApp;
+			productReference = D0B4D6D9291EDC6D00F1F295 /* ChaturangaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B4D6D1291EDC6D00F1F295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D0B4D6D8291EDC6D00F1F295 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D0B4D6D4291EDC6D00F1F295 /* Build configuration list for PBXProject "ChaturangaApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B4D6D0291EDC6D00F1F295;
+			productRefGroup = D0B4D6DA291EDC6D00F1F295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B4D6D8291EDC6D00F1F295 /* ChaturangaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B4D6D7291EDC6D00F1F295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B4D6EC291EDC6E00F1F295 /* LaunchScreen.storyboard in Resources */,
+				D0B4D6E9291EDC6E00F1F295 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53603227B69F8DDD8F24526D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaturangaApp/Pods-ChaturangaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaturangaApp/Pods-ChaturangaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChaturangaApp/Pods-ChaturangaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD00257FEAC6E7C050C1500 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChaturangaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B4D6D5291EDC6D00F1F295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D070E8FB293F929D00F25831 /* StandingViewController.swift in Sources */,
+				D0B4D70F291EDD8C00F1F295 /* TabBarViewController.swift in Sources */,
+				D0EFEEF22941041A00087FF6 /* QuotesModel.swift in Sources */,
+				D0A7108C29311A960086F3F7 /* Asanas+CoreDataClass.swift in Sources */,
+				D0B4D701291EDD4400F1F295 /* PeripheryCategories.swift in Sources */,
+				D0B4D713291EDD9600F1F295 /* QuotesViewController.swift in Sources */,
+				D0DC4E9E2922A67500F59075 /* BackBendViewController.swift in Sources */,
+				D0DC4EA22922A9B000F59075 /* TransitionPhoto.swift in Sources */,
+				D0B4D703291EDD4A00F1F295 /* AdditionalCategories.swift in Sources */,
+				D0EFEEEE2941031300087FF6 /* NetworkTypes.swift in Sources */,
+				D0B4D715291EDD9F00F1F295 /* VideoViewController.swift in Sources */,
+				D0B4D6E7291EDC6D00F1F295 /* ChaturangaApp.xcdatamodeld in Sources */,
+				D0B4D708291EDD6500F1F295 /* AllAsanasCustomCellCollectionViewCell.swift in Sources */,
+				D0B4D6FD291EDD3600F1F295 /* SpaceCategories.swift in Sources */,
+				D0B4D6FF291EDD3C00F1F295 /* StressFocusCategories.swift in Sources */,
+				D0A7108D29311A960086F3F7 /* Asanas+CoreDataProperties.swift in Sources */,
+				D012CD1E294560F90042D86A /* VideosCollectionViewCell.swift in Sources */,
+				D0B4D70B291EDD7C00F1F295 /* MainViewController.swift in Sources */,
+				D0B4D717291EDDA500F1F295 /* SpaceCategoriesViewController.swift in Sources */,
+				D070E8FD293F947C00F25831 /* HandStandsViewController.swift in Sources */,
+				D0EFEEF62941047E00087FF6 /* URLSession.swift in Sources */,
+				D0B4D706291EDD5E00F1F295 /* CustomCellForAsanasCollectionViewCell.swift in Sources */,
+				D0674B982925635A00FE2838 /* TwistViewController.swift in Sources */,
+				D0674B9A292568CB00FE2838 /* LateralSlopeViewController.swift in Sources */,
+				D0B4D6DD291EDC6D00F1F295 /* AppDelegate.swift in Sources */,
+				D0B4D70D291EDD8200F1F295 /* CategoryViewController.swift in Sources */,
+				D0B4D71F291EDDC700F1F295 /* AllAsanasViewController.swift in Sources */,
+				D0B4D71B291EDDBB00F1F295 /* AdditionalCategoriesViewController.swift in Sources */,
+				D0DC4E9C292153EA00F59075 /* AsanaDescriptionViewController.swift in Sources */,
+				D0B4D6F7291EDD1300F1F295 /* DataSource.swift in Sources */,
+				D0B4D6DF291EDC6D00F1F295 /* SceneDelegate.swift in Sources */,
+				D070E901293FBBF000F25831 /* SittingViewController.swift in Sources */,
+				D070E8FF293FB97D00F25831 /* ProneViewController.swift in Sources */,
+				D0B4D71D291EDDC000F1F295 /* PeripheryCategoriesViewController.swift in Sources */,
+				D0EFEEEB294102AB00087FF6 /* NetworkLayer.swift in Sources */,
+				D0B4D711291EDD9100F1F295 /* MyAsanasViewController.swift in Sources */,
+				D0B4D6FB291EDD2900F1F295 /* SpineCategories.swift in Sources */,
+				D0B4D719291EDDB300F1F295 /* StressFocusCategoriesViewController.swift in Sources */,
+				D0EFEEF42941046B00087FF6 /* Errors.swift in Sources */,
+				D0B4D6F9291EDD2000F1F295 /* AllAsanasPhoto.swift in Sources */,
+				D0DC4EA42924640C00F59075 /* ForwardViewController.swift in Sources */,
+				D038C880292C4B3C00F31979 /* AllAsanasPickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0B4D6EA291EDC6E00F1F295 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B4D6EB291EDC6E00F1F295 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B4D6EE291EDC6E00F1F295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0B4D6EF291EDC6E00F1F295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B4D6F1291EDC6E00F1F295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F16241B0410517C69F1914A /* Pods-ChaturangaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GM562BC5S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChaturangaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Junior.ChaturangaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B4D6F2291EDC6E00F1F295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65BDDB235AEBEA8BF761390 /* Pods-ChaturangaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GM562BC5S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChaturangaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Junior.ChaturangaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B4D6D4291EDC6D00F1F295 /* Build configuration list for PBXProject "ChaturangaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B4D6EE291EDC6E00F1F295 /* Debug */,
+				D0B4D6EF291EDC6E00F1F295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B4D6F0291EDC6E00F1F295 /* Build configuration list for PBXNativeTarget "ChaturangaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B4D6F1291EDC6E00F1F295 /* Debug */,
+				D0B4D6F2291EDC6E00F1F295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0B4D6E5291EDC6D00F1F295 /* ChaturangaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0B4D6E6291EDC6D00F1F295 /* ChaturangaApp.xcdatamodel */,
+			);
+			currentVersion = D0B4D6E6291EDC6D00F1F295 /* ChaturangaApp.xcdatamodel */;
+			path = ChaturangaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0B4D6D1291EDC6D00F1F295 /* Project object */;
+}
